@@ -1,0 +1,33 @@
+{
+  "name": "2020-04-11-markdown-editor",
+  "version": "1.0.0",
+  "description": "Realtime Markdown Viewer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jencwong/2020-04-11-Markdown-Editor.git"
+  },
+  "keywords": [
+    "markdown",
+    "realtime",
+    "sharejs"
+  ],
+  "author": "Jennie Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jencwong/2020-04-11-Markdown-Editor/issues"
+  },
+  "homepage": "https://github.com/jencwong/2020-04-11-Markdown-Editor#readme",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "redis": "^3.0.2",
+    "share": "^0.6.3",
+    "showdown": "^1.9.1"
+  },
+  "devDependencies": {}
+}
